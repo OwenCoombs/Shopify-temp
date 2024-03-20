@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo {
+    margin: 10px;
+    width: 10%;
+    height: 15%;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 80px; /* Adjust as needed */
+}
+
+.product {
+    width: 150px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-size: 14px; /* Adjust as needed */
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 12px; /* Adjust as needed */
+    color: #888;
+}
+
+h1, h2, p{
+    color: white;
+    text-align: center;
+}
+section {
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 800px; /* Set maximum width for the section */
+    padding: 20px; /* Add padding for content */
+    background-color: black; /* Optional: Add background color */
+  }
+
+  /* Styles for the heading */
+  h1 {
+    text-align: center; /* Center the heading */
+  }
+
+  /* Styles for the paragraph */
+  p {
+    text-align: justify; /* Justify the text */
+  }
+footer{
+    color: azure;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+}
