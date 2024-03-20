@@ -20,9 +20,49 @@
     h1, h2, p {
       color: #fff;
     }
+    nav {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
   </style>
 </head>
 <body>
+  <nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="home.html">Products</a></li>
+        <li><a href="about1.html">About Us</a></li>
+        
+        <li><a href="about.html">Contact</a></li>
+    </ul>
+</nav>
   <div class="container">
     <h1>About Us</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac nisl at nisi bibendum accumsan. Duis non metus arcu. Mauris sit amet augue sit amet odio viverra sodales. Ut placerat enim vel ex dapibus, nec elementum velit sollicitudin.</p>
